@@ -11,6 +11,9 @@ pre { white-space: pre-wrap; }
   display: flex;
   flex-flow: column;
 }
+.wrapper div {
+  margin-bottom: 20px;
+}
 .right { align-self: flex-end; }
 .left, .right {
   width: 40vw;
