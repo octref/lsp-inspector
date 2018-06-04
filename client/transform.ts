@@ -52,8 +52,8 @@ function extractMsg(msg: string) {
   }
 
   const reNotification = /Sending notification '(.*)'/
-  const reRequest = /Sending request '(.*) - \(\d+\)'/
-  const reResponse = /Received response '(.*) - \(\d+\)' in (\d+)ms/
+  const reRequest = /Sending request '(.*) - \((\d+)\)'/
+  const reResponse = /Received response '(.*) - \((\d+)\)' in (\d+ms)/
 
   let msgType, msgId, msgLatency
   if (msgKind === 'notification') {
