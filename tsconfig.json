@@ -1,22 +1,39 @@
 {
   "compilerOptions": {
-    // Basic
-    "module": "commonjs",
-    "target": "es6",
-
-    // Output
-    "outDir": "dist",
-    // Dev Only
+    "target": "es5",
+    "module": "esnext",
+    "strict": false,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-
-    // Lib
-    "lib": ["es6"],
-
-    // Strictness
-    // "strict": true,
-    "noUnusedLocals": true,
+    "baseUrl": ".",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "es2015",
+      "dom",
+      "dom.iterable",
+      "scripthost",
+      "es2016.array.include"
+    ]
   },
   "include": [
-    "client"
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

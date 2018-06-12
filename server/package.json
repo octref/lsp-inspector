@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "vscode-languageserver": "^4.0.0",
-    "vscode-languageserver-types": "^3.6.0"
-  }
-}

@@ -1,0 +1,1635 @@
+[Trace - 12:47:45 PM] Sending notification '$/setTraceNotification'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 12:47:45 PM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "html": {
+            "format": {
+                "enable": true,
+                "wrapLineLength": 120,
+                "unformatted": "wbr",
+                "contentUnformatted": "pre,code,textarea,p",
+                "indentInnerHtml": false,
+                "preserveNewLines": true,
+                "maxPreserveNewLines": null,
+                "indentHandlebars": false,
+                "endWithNewline": false,
+                "extraLiners": "head, body, /html",
+                "wrapAttributes": "auto"
+            },
+            "suggest": {
+                "angular1": false,
+                "ionic": true,
+                "html5": true
+            },
+            "validate": {
+                "scripts": true,
+                "styles": true
+            },
+            "autoClosingTags": true,
+            "trace": {
+                "server": "verbose"
+            }
+        },
+        "css": {
+            "validate": true,
+            "colorDecorators": {
+                "enable": true
+            },
+            "lint": {
+                "compatibleVendorPrefixes": "ignore",
+                "vendorPrefix": "warning",
+                "duplicateProperties": "ignore",
+                "emptyRules": "warning",
+                "importStatement": "ignore",
+                "boxModel": "ignore",
+                "universalSelector": "ignore",
+                "zeroUnits": "ignore",
+                "fontFaceProperties": "warning",
+                "hexColorLength": "error",
+                "argumentsInColorFunction": "error",
+                "unknownProperties": "warning",
+                "ieHack": "ignore",
+                "unknownVendorSpecificProperties": "ignore",
+                "propertyIgnoredDueToDisplay": "warning",
+                "important": "ignore",
+                "float": "ignore",
+                "idSelector": "ignore"
+            },
+            "trace": {
+                "server": "verbose"
+            }
+        },
+        "javascript": {
+            "referencesCodeLens": {
+                "enabled": false
+            },
+            "validate": {
+                "enable": true
+            },
+            "format": {
+                "enable": true,
+                "insertSpaceAfterCommaDelimiter": true,
+                "insertSpaceAfterConstructor": false,
+                "insertSpaceAfterSemicolonInForStatements": true,
+                "insertSpaceBeforeAndAfterBinaryOperators": true,
+                "insertSpaceAfterKeywordsInControlFlowStatements": true,
+                "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+                "insertSpaceBeforeFunctionParenthesis": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+                "insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+                "insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+                "placeOpenBraceOnNewLineForFunctions": false,
+                "placeOpenBraceOnNewLineForControlBlocks": false
+            },
+            "implicitProjectConfig": {
+                "checkJs": false,
+                "experimentalDecorators": false
+            },
+            "nameSuggestions": false,
+            "suggestionActions": {
+                "enabled": false
+            },
+            "preferences": {
+                "quoteStyle": "auto",
+                "importModuleSpecifier": "auto"
+            },
+            "showUnused": true,
+            "updateImportsOnFileMove": {
+                "enabled": "prompt"
+            }
+        }
+    }
+}
+
+
+[Trace - 3:03:58 PM] Sending notification '$/setTraceNotification'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 3:03:58 PM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "html": {
+            "format": {
+                "enable": true,
+                "wrapLineLength": 120,
+                "unformatted": "wbr",
+                "contentUnformatted": "pre,code,textarea,p",
+                "indentInnerHtml": false,
+                "preserveNewLines": true,
+                "maxPreserveNewLines": null,
+                "indentHandlebars": false,
+                "endWithNewline": false,
+                "extraLiners": "head, body, /html",
+                "wrapAttributes": "auto"
+            },
+            "suggest": {
+                "angular1": false,
+                "ionic": true,
+                "html5": true
+            },
+            "validate": {
+                "scripts": true,
+                "styles": true
+            },
+            "autoClosingTags": true,
+            "trace": {
+                "server": "verbose"
+            }
+        },
+        "css": {
+            "validate": true,
+            "colorDecorators": {
+                "enable": true
+            },
+            "lint": {
+                "compatibleVendorPrefixes": "ignore",
+                "vendorPrefix": "warning",
+                "duplicateProperties": "ignore",
+                "emptyRules": "warning",
+                "importStatement": "ignore",
+                "boxModel": "ignore",
+                "universalSelector": "ignore",
+                "zeroUnits": "ignore",
+                "fontFaceProperties": "warning",
+                "hexColorLength": "error",
+                "argumentsInColorFunction": "error",
+                "unknownProperties": "warning",
+                "ieHack": "ignore",
+                "unknownVendorSpecificProperties": "ignore",
+                "propertyIgnoredDueToDisplay": "warning",
+                "important": "ignore",
+                "float": "ignore",
+                "idSelector": "ignore"
+            },
+            "trace": {
+                "server": "verbose"
+            }
+        },
+        "javascript": {
+            "referencesCodeLens": {
+                "enabled": false
+            },
+            "validate": {
+                "enable": true
+            },
+            "format": {
+                "enable": true,
+                "insertSpaceAfterCommaDelimiter": true,
+                "insertSpaceAfterConstructor": false,
+                "insertSpaceAfterSemicolonInForStatements": true,
+                "insertSpaceBeforeAndAfterBinaryOperators": true,
+                "insertSpaceAfterKeywordsInControlFlowStatements": true,
+                "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+                "insertSpaceBeforeFunctionParenthesis": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+                "insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+                "insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+                "placeOpenBraceOnNewLineForFunctions": false,
+                "placeOpenBraceOnNewLineForControlBlocks": false
+            },
+            "implicitProjectConfig": {
+                "checkJs": false,
+                "experimentalDecorators": false
+            },
+            "nameSuggestions": false,
+            "suggestionActions": {
+                "enabled": false
+            },
+            "preferences": {
+                "quoteStyle": "auto",
+                "importModuleSpecifier": "auto"
+            },
+            "showUnused": true,
+            "updateImportsOnFileMove": {
+                "enabled": "prompt"
+            }
+        }
+    }
+}
+
+
+[Trace - 3:52:52 PM] Sending notification '$/setTraceNotification'.
+Params: {
+    "value": "verbose"
+}
+
+
+[Trace - 3:52:52 PM] Sending notification 'workspace/didChangeConfiguration'.
+Params: {
+    "settings": {
+        "html": {
+            "format": {
+                "enable": true,
+                "wrapLineLength": 120,
+                "unformatted": "wbr",
+                "contentUnformatted": "pre,code,textarea,p",
+                "indentInnerHtml": false,
+                "preserveNewLines": true,
+                "maxPreserveNewLines": null,
+                "indentHandlebars": false,
+                "endWithNewline": false,
+                "extraLiners": "head, body, /html",
+                "wrapAttributes": "auto"
+            },
+            "suggest": {
+                "angular1": false,
+                "ionic": true,
+                "html5": true
+            },
+            "validate": {
+                "scripts": true,
+                "styles": true
+            },
+            "autoClosingTags": true,
+            "trace": {
+                "server": "verbose"
+            }
+        },
+        "css": {
+            "validate": true,
+            "colorDecorators": {
+                "enable": true
+            },
+            "lint": {
+                "compatibleVendorPrefixes": "ignore",
+                "vendorPrefix": "warning",
+                "duplicateProperties": "ignore",
+                "emptyRules": "warning",
+                "importStatement": "ignore",
+                "boxModel": "ignore",
+                "universalSelector": "ignore",
+                "zeroUnits": "ignore",
+                "fontFaceProperties": "warning",
+                "hexColorLength": "error",
+                "argumentsInColorFunction": "error",
+                "unknownProperties": "warning",
+                "ieHack": "ignore",
+                "unknownVendorSpecificProperties": "ignore",
+                "propertyIgnoredDueToDisplay": "warning",
+                "important": "ignore",
+                "float": "ignore",
+                "idSelector": "ignore"
+            },
+            "trace": {
+                "server": "verbose"
+            }
+        },
+        "javascript": {
+            "referencesCodeLens": {
+                "enabled": false
+            },
+            "validate": {
+                "enable": true
+            },
+            "format": {
+                "enable": true,
+                "insertSpaceAfterCommaDelimiter": true,
+                "insertSpaceAfterConstructor": false,
+                "insertSpaceAfterSemicolonInForStatements": true,
+                "insertSpaceBeforeAndAfterBinaryOperators": true,
+                "insertSpaceAfterKeywordsInControlFlowStatements": true,
+                "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+                "insertSpaceBeforeFunctionParenthesis": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+                "insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+                "insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+                "insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+                "placeOpenBraceOnNewLineForFunctions": false,
+                "placeOpenBraceOnNewLineForControlBlocks": false
+            },
+            "implicitProjectConfig": {
+                "checkJs": false,
+                "experimentalDecorators": false
+            },
+            "nameSuggestions": false,
+            "suggestionActions": {
+                "enabled": false
+            },
+            "preferences": {
+                "quoteStyle": "auto",
+                "importModuleSpecifier": "auto"
+            },
+            "showUnused": true,
+            "updateImportsOnFileMove": {
+                "enabled": "prompt"
+            }
+        }
+    }
+}
+
+
+[Trace - 4:22:33 PM] Sending notification 'textDocument/didOpen'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "languageId": "html",
+        "version": 1,
+        "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>next</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but next doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+    }
+}
+
+
+[Trace - 4:22:33 PM] Sending request 'textDocument/documentColor - (1)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:33 PM] Sending request 'textDocument/documentLink - (2)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:33 PM] Received response 'textDocument/documentColor - (1)' in 12ms.
+Result: []
+
+
+[Trace - 4:22:33 PM] Received response 'textDocument/documentLink - (2)' in 14ms.
+Result: []
+
+
+[Trace - 4:22:33 PM] Sending request 'textDocument/foldingRange - (3)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:33 PM] Received response 'textDocument/foldingRange - (3)' in 11ms.
+Result: [
+    {
+        "startLine": 2,
+        "endLine": 7
+    },
+    {
+        "startLine": 10,
+        "endLine": 11
+    },
+    {
+        "startLine": 9,
+        "endLine": 14
+    },
+    {
+        "startLine": 1,
+        "endLine": 15
+    }
+]
+
+
+[Trace - 4:22:34 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+    "diagnostics": []
+}
+
+
+[Trace - 4:22:35 PM] Sending request 'textDocument/hover - (4)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 4,
+        "character": 29
+    }
+}
+
+
+[Trace - 4:22:35 PM] Received response 'textDocument/hover - (4)' in 4ms.
+No result returned.
+
+
+[Trace - 4:22:38 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 2
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title></title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but next doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:38 PM] Sending request 'textDocument/foldingRange - (5)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:38 PM] Received response 'textDocument/foldingRange - (5)' in 2ms.
+Result: [
+    {
+        "startLine": 2,
+        "endLine": 7
+    },
+    {
+        "startLine": 10,
+        "endLine": 11
+    },
+    {
+        "startLine": 9,
+        "endLine": 14
+    },
+    {
+        "startLine": 1,
+        "endLine": 15
+    }
+]
+
+
+[Trace - 4:22:38 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 3
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>L</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but next doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:38 PM] Sending notification 'textDocument/didSave'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 3
+    }
+}
+
+
+[Trace - 4:22:38 PM] Sending request 'textDocument/completion - (6)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 7,
+        "character": 12
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:38 PM] Received request 'workspace/configuration - (2)'.
+Params: {
+    "items": [
+        {
+            "scopeUri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+            "section": "css"
+        },
+        {
+            "scopeUri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+            "section": "html"
+        },
+        {
+            "scopeUri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+            "section": "javascript"
+        }
+    ]
+}
+
+
+[Trace - 4:22:38 PM] Sending response 'workspace/configuration - (2)'. Processing request took 5ms
+Result: [
+    {
+        "validate": true,
+        "colorDecorators": {
+            "enable": true
+        },
+        "lint": {
+            "compatibleVendorPrefixes": "ignore",
+            "vendorPrefix": "warning",
+            "duplicateProperties": "ignore",
+            "emptyRules": "warning",
+            "importStatement": "ignore",
+            "boxModel": "ignore",
+            "universalSelector": "ignore",
+            "zeroUnits": "ignore",
+            "fontFaceProperties": "warning",
+            "hexColorLength": "error",
+            "argumentsInColorFunction": "error",
+            "unknownProperties": "warning",
+            "ieHack": "ignore",
+            "unknownVendorSpecificProperties": "ignore",
+            "propertyIgnoredDueToDisplay": "warning",
+            "important": "ignore",
+            "float": "ignore",
+            "idSelector": "ignore"
+        },
+        "trace": {
+            "server": "verbose"
+        }
+    },
+    {
+        "format": {
+            "enable": true,
+            "wrapLineLength": 120,
+            "unformatted": "wbr",
+            "contentUnformatted": "pre,code,textarea,p",
+            "indentInnerHtml": false,
+            "preserveNewLines": true,
+            "maxPreserveNewLines": null,
+            "indentHandlebars": false,
+            "endWithNewline": false,
+            "extraLiners": "head, body, /html",
+            "wrapAttributes": "auto"
+        },
+        "suggest": {
+            "angular1": false,
+            "ionic": true,
+            "html5": true
+        },
+        "validate": {
+            "scripts": true,
+            "styles": true
+        },
+        "autoClosingTags": true,
+        "trace": {
+            "server": "verbose"
+        }
+    },
+    {
+        "referencesCodeLens": {
+            "enabled": false
+        },
+        "validate": {
+            "enable": true
+        },
+        "format": {
+            "enable": true,
+            "insertSpaceAfterCommaDelimiter": true,
+            "insertSpaceAfterConstructor": false,
+            "insertSpaceAfterSemicolonInForStatements": true,
+            "insertSpaceBeforeAndAfterBinaryOperators": true,
+            "insertSpaceAfterKeywordsInControlFlowStatements": true,
+            "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+            "insertSpaceBeforeFunctionParenthesis": false,
+            "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+            "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+            "insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+            "insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+            "insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+            "placeOpenBraceOnNewLineForFunctions": false,
+            "placeOpenBraceOnNewLineForControlBlocks": false
+        },
+        "implicitProjectConfig": {
+            "checkJs": false,
+            "experimentalDecorators": false
+        },
+        "nameSuggestions": false,
+        "suggestionActions": {
+            "enabled": false
+        },
+        "preferences": {
+            "quoteStyle": "auto",
+            "importModuleSpecifier": "auto"
+        },
+        "showUnused": true,
+        "updateImportsOnFileMove": {
+            "enabled": "prompt"
+        }
+    }
+]
+
+
+[Trace - 4:22:38 PM] Received response 'textDocument/completion - (6)' in 63ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:38 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 5
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but next doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:38 PM] Sending request 'textDocument/completion - (7)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 7,
+        "character": 14
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:38 PM] Received response 'textDocument/completion - (7)' in 5ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:39 PM] Sending request 'textDocument/foldingRange - (8)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:39 PM] Received response 'textDocument/foldingRange - (8)' in 1ms.
+Result: [
+    {
+        "startLine": 2,
+        "endLine": 7
+    },
+    {
+        "startLine": 10,
+        "endLine": 11
+    },
+    {
+        "startLine": 9,
+        "endLine": 14
+    },
+    {
+        "startLine": 1,
+        "endLine": 15
+    }
+]
+
+
+[Trace - 4:22:39 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 6
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP </title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but next doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:39 PM] Sending notification 'textDocument/didSave'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 6
+    }
+}
+
+
+[Trace - 4:22:39 PM] Sending request 'textDocument/documentLink - (9)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:39 PM] Sending request 'textDocument/documentColor - (10)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:39 PM] Received response 'textDocument/documentLink - (9)' in 3ms.
+Result: []
+
+
+[Trace - 4:22:39 PM] Received response 'textDocument/documentColor - (10)' in 2ms.
+Result: []
+
+
+[Trace - 4:22:39 PM] Sending request 'textDocument/foldingRange - (11)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:39 PM] Received response 'textDocument/foldingRange - (11)' in 3ms.
+Result: [
+    {
+        "startLine": 2,
+        "endLine": 7
+    },
+    {
+        "startLine": 10,
+        "endLine": 11
+    },
+    {
+        "startLine": 9,
+        "endLine": 14
+    },
+    {
+        "startLine": 1,
+        "endLine": 15
+    }
+]
+
+
+[Trace - 4:22:39 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 7
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP I</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but next doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:39 PM] Sending request 'textDocument/completion - (12)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 7,
+        "character": 16
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:39 PM] Received response 'textDocument/completion - (12)' in 22ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:39 PM] Sending request 'textDocument/foldingRange - (13)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:39 PM] Received response 'textDocument/foldingRange - (13)' in 1ms.
+Result: [
+    {
+        "startLine": 2,
+        "endLine": 7
+    },
+    {
+        "startLine": 10,
+        "endLine": 11
+    },
+    {
+        "startLine": 9,
+        "endLine": 14
+    },
+    {
+        "startLine": 1,
+        "endLine": 15
+    }
+]
+
+
+[Trace - 4:22:39 PM] Sending notification 'textDocument/didSave'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 7
+    }
+}
+
+
+[Trace - 4:22:39 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+    "diagnostics": []
+}
+
+
+[Trace - 4:22:40 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 11
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspe</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but next doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:40 PM] Sending request 'textDocument/completion - (14)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 7,
+        "character": 20
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:40 PM] Received response 'textDocument/completion - (14)' in 6ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:40 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 12
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspec</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but next doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:40 PM] Sending request 'textDocument/completion - (15)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 7,
+        "character": 21
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:40 PM] Received response 'textDocument/completion - (15)' in 6ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:40 PM] Sending request 'textDocument/documentLink - (16)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:40 PM] Sending request 'textDocument/documentColor - (17)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:40 PM] Received response 'textDocument/documentLink - (16)' in 1ms.
+Result: []
+
+
+[Trace - 4:22:40 PM] Received response 'textDocument/documentColor - (17)' in 0ms.
+Result: []
+
+
+[Trace - 4:22:40 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 13
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspect</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but next doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:40 PM] Sending request 'textDocument/completion - (18)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 7,
+        "character": 22
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:40 PM] Received response 'textDocument/completion - (18)' in 3ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:40 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 14
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspecto</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but next doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:40 PM] Sending request 'textDocument/completion - (19)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 7,
+        "character": 23
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:40 PM] Received response 'textDocument/completion - (19)' in 5ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:40 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 15
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspector</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but next doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:40 PM] Sending request 'textDocument/completion - (20)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 7,
+        "character": 24
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:40 PM] Received response 'textDocument/completion - (20)' in 6ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:40 PM] Sending request 'textDocument/foldingRange - (21)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:40 PM] Received response 'textDocument/foldingRange - (21)' in 1ms.
+Result: [
+    {
+        "startLine": 2,
+        "endLine": 7
+    },
+    {
+        "startLine": 10,
+        "endLine": 11
+    },
+    {
+        "startLine": 9,
+        "endLine": 14
+    },
+    {
+        "startLine": 1,
+        "endLine": 15
+    }
+]
+
+
+[Trace - 4:22:40 PM] Sending notification 'textDocument/didSave'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 15
+    }
+}
+
+
+[Trace - 4:22:41 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+    "diagnostics": []
+}
+
+
+[Trace - 4:22:41 PM] Sending request 'textDocument/documentLink - (22)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:41 PM] Sending request 'textDocument/documentColor - (23)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:41 PM] Received response 'textDocument/documentLink - (22)' in 1ms.
+Result: []
+
+
+[Trace - 4:22:41 PM] Received response 'textDocument/documentColor - (23)' in 2ms.
+Result: []
+
+
+[Trace - 4:22:42 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 16
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspector</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but  doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:42 PM] Sending request 'textDocument/foldingRange - (24)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:42 PM] Received response 'textDocument/foldingRange - (24)' in 1ms.
+Result: [
+    {
+        "startLine": 2,
+        "endLine": 7
+    },
+    {
+        "startLine": 10,
+        "endLine": 11
+    },
+    {
+        "startLine": 9,
+        "endLine": 14
+    },
+    {
+        "startLine": 1,
+        "endLine": 15
+    }
+]
+
+
+[Trace - 4:22:42 PM] Sending notification 'textDocument/didSave'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 16
+    }
+}
+
+
+[Trace - 4:22:42 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 17
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspector</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but L doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:42 PM] Sending request 'textDocument/completion - (25)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 11,
+        "character": 31
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:42 PM] Received response 'textDocument/completion - (25)' in 9ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:43 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 19
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspector</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but LSP doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:43 PM] Sending request 'textDocument/completion - (26)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 11,
+        "character": 33
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:43 PM] Received response 'textDocument/completion - (26)' in 5ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:43 PM] Sending request 'textDocument/foldingRange - (27)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:43 PM] Received response 'textDocument/foldingRange - (27)' in 1ms.
+Result: [
+    {
+        "startLine": 2,
+        "endLine": 7
+    },
+    {
+        "startLine": 10,
+        "endLine": 11
+    },
+    {
+        "startLine": 9,
+        "endLine": 14
+    },
+    {
+        "startLine": 1,
+        "endLine": 15
+    }
+]
+
+
+[Trace - 4:22:43 PM] Sending request 'textDocument/documentLink - (28)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:43 PM] Sending request 'textDocument/documentColor - (29)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:43 PM] Received response 'textDocument/documentLink - (28)' in 1ms.
+Result: []
+
+
+[Trace - 4:22:43 PM] Received response 'textDocument/documentColor - (29)' in 1ms.
+Result: []
+
+
+[Trace - 4:22:43 PM] Sending notification 'textDocument/didSave'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 19
+    }
+}
+
+
+[Trace - 4:22:43 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 21
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspector</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but LSP I doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:43 PM] Sending request 'textDocument/completion - (30)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 11,
+        "character": 35
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:43 PM] Received response 'textDocument/completion - (30)' in 25ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:44 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 25
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspector</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but LSP Inspe doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:44 PM] Sending request 'textDocument/completion - (31)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 11,
+        "character": 39
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:44 PM] Received response 'textDocument/completion - (31)' in 4ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:44 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 26
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspector</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but LSP Inspec doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:44 PM] Sending request 'textDocument/completion - (32)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 11,
+        "character": 40
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:44 PM] Received response 'textDocument/completion - (32)' in 4ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:44 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 27
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspector</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but LSP Inspect doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:44 PM] Sending request 'textDocument/completion - (33)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 11,
+        "character": 41
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:44 PM] Received response 'textDocument/completion - (33)' in 2ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:44 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 28
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspector</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but LSP Inspecto doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:44 PM] Sending request 'textDocument/completion - (34)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 11,
+        "character": 42
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:44 PM] Received response 'textDocument/completion - (34)' in 3ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:44 PM] Sending request 'textDocument/documentLink - (35)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:44 PM] Sending request 'textDocument/documentColor - (36)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:44 PM] Received response 'textDocument/documentLink - (35)' in 1ms.
+Result: []
+
+
+[Trace - 4:22:44 PM] Received response 'textDocument/documentColor - (36)' in 1ms.
+Result: []
+
+
+[Trace - 4:22:44 PM] Sending notification 'textDocument/didChange'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 29
+    },
+    "contentChanges": [
+        {
+            "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>favicon.ico\">\n    <title>LSP Inspector</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but LSP Inspector doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n"
+        }
+    ]
+}
+
+
+[Trace - 4:22:44 PM] Sending request 'textDocument/completion - (37)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    },
+    "position": {
+        "line": 11,
+        "character": 43
+    },
+    "context": {
+        "triggerKind": 1
+    }
+}
+
+
+[Trace - 4:22:44 PM] Received response 'textDocument/completion - (37)' in 2ms.
+Result: {
+    "isIncomplete": false,
+    "items": []
+}
+
+
+[Trace - 4:22:44 PM] Sending request 'textDocument/foldingRange - (38)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:44 PM] Received response 'textDocument/foldingRange - (38)' in 2ms.
+Result: [
+    {
+        "startLine": 2,
+        "endLine": 7
+    },
+    {
+        "startLine": 10,
+        "endLine": 11
+    },
+    {
+        "startLine": 9,
+        "endLine": 14
+    },
+    {
+        "startLine": 1,
+        "endLine": 15
+    }
+]
+
+
+[Trace - 4:22:44 PM] Sending notification 'textDocument/didSave'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+        "version": 29
+    }
+}
+
+
+[Trace - 4:22:44 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+    "diagnostics": []
+}
+
+
+[Trace - 4:22:45 PM] Sending request 'textDocument/documentLink - (39)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:45 PM] Sending request 'textDocument/documentColor - (40)'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:45 PM] Received response 'textDocument/documentLink - (39)' in 1ms.
+Result: []
+
+
+[Trace - 4:22:45 PM] Received response 'textDocument/documentColor - (40)' in 1ms.
+Result: []
+
+
+[Trace - 4:22:47 PM] Sending notification 'textDocument/didClose'.
+Params: {
+    "textDocument": {
+        "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html"
+    }
+}
+
+
+[Trace - 4:22:47 PM] Received notification 'textDocument/publishDiagnostics'.
+Params: {
+    "uri": "file:///Users/octref/Code/lsp-inspector/next/public/index.html",
+    "diagnostics": []
+}
+
+

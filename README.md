@@ -1,15 +1,17 @@
 # LSP Inspector
 
-Prototype for LSP inspector.
-
-## Running
+### Running
 
 - `yarn`
-- `yarn watch`
-- Launch `client` with F5
-- In the launched VS Code instance, set `"mls.trace.server": "verbose"`
-- Open a markdown file
-- Run command `Show LSP View`
-- Try
-  - Editing / saving markdown files
-  - Auto complete in markdown files (Two suggestions `TypeScript` and `Javascript` are available)
+- `yarn serve`
+
+### Demo
+
+http://lsp-inspector.surge.sh
+
+- A log file (log from html Language Server) is loaded by default
+- You can collect other logs and load them. For example:
+  - Set `css.trace.server: "verbose"`
+  - Copy everything inside `CSS Language Server` channel into a log file `css.log`
+  - Load it from the web app
+- You can try it on a real-world log file, `./logs/vetur.log`. It contains 330k lines of log generated from 10 minutes of usage.

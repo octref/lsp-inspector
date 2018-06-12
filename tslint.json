@@ -1,27 +1,22 @@
 {
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**"
+    ]
+  },
   "rules": {
-    "class-name": true,
-    "curly": true,
-    "import-spacing": true,
+    "quotemark": [true, "single"],
     "indent": [true, "spaces", 2],
-    "interface-over-type-literal": true,
-    "label-position": true,
-    "max-line-length": [true, 120],
-    "no-arg": true,
-    "no-duplicate-variable": true,
-    "no-eval": true,
-    "no-inferrable-types": true,
-    "no-unused-expression": true,
-    "no-var-keyword": true,
-    "object-literal-key-quotes": [true, "as-needed"],
-    "object-literal-shorthand": true,
-    "prefer-const": true,
-    "prefer-method-signature": true,
-    "quotemark": [true, "single", "avoid-escape"],
-    "whitespace": true,
-    "semicolon": [false, "always"],
-    "space-before-function-paren": [true, {"anonymous": "always", "named": "never"}],
-    "triple-equals": true,
-    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"]
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-consecutive-blank-lines": false,
+    "semicolon": false,
+    "trailing-comma": false,
+    
   }
 }
