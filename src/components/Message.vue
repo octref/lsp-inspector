@@ -1,25 +1,29 @@
 <template>
-  <span class="msg" :class="item.msgKind" @click="toggleArg">
+  <span class="msg" :class="item.msgKind">
     <div>
-      <font-awesome-icon class="fa-icon" icon="comment" v-if="item.msgKind === 'send-request'" />
-      <font-awesome-icon class="fa-icon" icon="comment-alt" v-if="item.msgKind === 'send-notification'" />
-      <font-awesome-icon class="fa-icon" icon="comment" v-if="item.msgKind === 'send-response'" />
+      <span @click="toggleArg">
+        <font-awesome-icon class="fa-icon" icon="comment" v-if="item.msgKind === 'send-request'" />
+        <font-awesome-icon class="fa-icon" icon="comment-alt" v-if="item.msgKind === 'send-notification'" />
+        <font-awesome-icon class="fa-icon" icon="comment" v-if="item.msgKind === 'send-response'" />
+      </span>
 
-      <span class="msg-type" v-if="isLeft">
+      <span class="msg-type" v-if="isLeft" @click="toggleArg">
         {{ item.msgType }}
       </span>
 
-      <span class="msg-timestamp">{{ timestampOrLatency }}</span>
+      <span class="msg-timestamp" @click="toggleArg">{{ timestampOrLatency }}</span>
 
-      <span class="msg-type" v-if="!isLeft">
+      <span class="msg-type" v-if="!isLeft" @click="toggleArg">
         {{ item.msgType }}
       </span>
 
-      <font-awesome-icon class="fa-icon" icon="comment" transform="flip-h" v-if="item.msgKind === 'recv-response'" />
-      <font-awesome-icon class="fa-icon" icon="comment-alt" tranform="flip-h" v-if="item.msgKind === 'recv-notification'" />
-      <font-awesome-icon class="fa-icon" icon="comment" transform="flip-h" v-if="item.msgKind === 'recv-request'" />
+      <span @click="toggleArg">
+        <font-awesome-icon class="fa-icon" icon="comment" transform="flip-h" v-if="item.msgKind === 'recv-response'" />
+        <font-awesome-icon class="fa-icon" icon="comment-alt" tranform="flip-h" v-if="item.msgKind === 'recv-notification'" />
+        <font-awesome-icon class="fa-icon" icon="comment" transform="flip-h" v-if="item.msgKind === 'recv-request'" />
+      </span>
     </div>
-    <message-detail :item="item" v-if="this.expanded"></message-detail>
+    <message-detail :item="item" v-if="this.expanded" @click="noop"></message-detail>
   </span>
 </template>
 
@@ -53,7 +57,8 @@ export default Vue.extend({
   methods: {
     toggleArg() {
       this.expanded = !this.expanded
-    }
+    },
+    noop() { }
   }
 })
 </script>
