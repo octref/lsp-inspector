@@ -65,7 +65,7 @@ export default Vue.extend({
 
 <style scoped>
 .msg {
-  font-family: 'Input Mono';
+  font-family: 'Input Mono', Menlo, Monaco, 'Courier New', monospace;
   font-size: 13px;
   border: 1px solid #ddd;
   border-radius: 4px;

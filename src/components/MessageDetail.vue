@@ -39,7 +39,7 @@ pre {
 }
 code {
   white-space: pre-wrap;
-  font-family: 'Input Mono' !important;
+  font-family: 'Input Mono', Menlo, Monaco, 'Courier New', monospace !important;
   font-size: 12px;
   border-radius: 2px;
   padding: 0.2rem 0.3rem;

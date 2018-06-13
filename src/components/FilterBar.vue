@@ -27,7 +27,7 @@ export default Vue.extend({
 <style>
 .filter-bar {
   margin-bottom: 24px;
-  font-family: 'Input Mono';
+  font-family: 'Input Mono', Menlo, Monaco, 'Courier New', monospace;
 }
 .filter-bar span {
   transition: color .1s ease-in;
