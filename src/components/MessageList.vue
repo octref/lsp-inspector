@@ -1,6 +1,12 @@
 <template>
-  <div class="msg-list">
-    <message v-for="(item, i) in this.log" :key="i" :item="item"></message>
+  <div>
+    <div class="msg-header">
+      <span>Client</span>
+      <span>Server</span>
+    </div>
+    <div class="msg-list">
+      <message v-for="(item, i) in this.log" :key="i" :item="item"></message>
+    </div>
   </div>
 </template>
 
@@ -20,12 +26,21 @@ export default Vue.extend({
 })
 </script>
 
-<style>
-.msg-list {
-  display: flex;
-  flex-flow: column;
+<style lang="scss">
+.msg-header, .msg-list {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+.msg-header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+.msg-list {
+  display: flex;
+  flex-flow: column;
 }
 </style>
