@@ -74,24 +74,25 @@ function itemMatchesQuery(item: LspItem, query: string) {
 }
 
 function itemMatchesFilter(item: LspItem, filter: Filter) {
+  const textSyncMsgTypes = [
+    'textDocument/didOpen',
+    'textDocument/didChange',
+    'textDocument/willSave',
+    'textDocument/willSaveWaitUntil',
+    'textDocument/didSave',
+    'textDocument/didClose'
+  ]
+
   switch (filter) {
     case 'a':
       return true
     case 'w':
       return item.msgType.startsWith('workspace')
     case 't':
-      const msgTypes = [
-        'textDocument/didOpen',
-        'textDocument/didChange',
-        'textDocument/willSave',
-        'textDocument/willSaveWaitUntil',
-        'textDocument/didSave',
-        'textDocument/didClose'
-      ]
-      return msgTypes.indexOf(item.msgType) !== -1
+      return textSyncMsgTypes.indexOf(item.msgType) !== -1
     case 'd':
       return item.msgType === 'textDocument/publishDiagnostics'
     case 'l':
-      return item.msgType.startsWith('textDocument')
+      return item.msgType.startsWith('textDocument') && textSyncMsgTypes.indexOf(item.msgType) === -1 
   }
 }
