@@ -1,5 +1,5 @@
 <template>
-  <span class="msg" :class="item.msgKind">
+  <span class="msg" :class="[{ current: isCurrent }, item.msgKind]" @mouseover="updateCurrent">
     <div>
       <span @click="toggleArg">
         <font-awesome-icon class="fa-icon" icon="comment" v-if="item.msgKind === 'send-request'" />
@@ -27,6 +27,7 @@
   </span>
 </template>
 
+
 <script lang="ts">
 import Vue from 'vue'
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
@@ -44,21 +45,36 @@ export default Vue.extend({
       expanded: false
     }
   },
+
   computed: {
     isLeft() {
-      return this.item.msgKind === 'send-request' || this.item.msgKind === 'send-notification' || this.item.msgKind === 'send-response'
+      return (
+        this.item.msgKind === 'send-request' ||
+        this.item.msgKind === 'send-notification' ||
+        this.item.msgKind === 'send-response'
+      )
     },
     timestampOrLatency() {
       return this.item.msgKind === 'recv-response' || this.item.msgKind === 'send-response'
         ? this.item.msgLatency
-        : this.item.time;
+        : this.item.time
+    },
+    isCurrent() {
+      return this.item.msgId === this.$store.state.current
     }
   },
   methods: {
     toggleArg() {
       this.expanded = !this.expanded
     },
-    noop() { }
+    updateCurrent() {
+      if (this.item.msgId) {
+        this.$store.commit('updateCurrent', this.item.msgId)
+      } else {
+        this.$store.commit('updateCurrent', -1)
+      }
+    },
+    noop() {}
   }
 })
 </script>
@@ -111,6 +127,9 @@ export default Vue.extend({
   transition: background-color 0.1s ease-in;
 }
 .msg:hover {
+  background-color: rgba(221, 221, 221, 0.3);
+}
+.msg.current {
   background-color: rgba(221, 221, 221, 0.3);
 }
 </style>

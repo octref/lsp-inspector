@@ -31,6 +31,7 @@ export interface State {
   items: LspItem[]
   query: string
   filter: Filter
+  current: number
 }
 
 let items: LspItem[] = require('./lsp.json')
@@ -38,7 +39,8 @@ let items: LspItem[] = require('./lsp.json')
 const defaultState: State = {
   items,
   query: '',
-  filter: 'a'
+  filter: 'a',
+  current: -1
 }
 
 export default new Vuex.Store({
@@ -60,6 +62,9 @@ export default new Vuex.Store({
       state.items = items.filter(item => {
         return itemShouldShow(item, state)
       })
+    },
+    updateCurrent(state, current) {
+      state.current = current
     }
   },
   actions: {}
