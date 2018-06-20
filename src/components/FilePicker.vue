@@ -1,8 +1,5 @@
 <template>
   <div class="file-picker">
-    <p>
-      Set [languageId].trace.server: "verbose" -> Copy log into a file -> Load it here
-    </p>
     <input type="file" @change="handleFiles">
   </div>
 </template>

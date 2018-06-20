@@ -1,6 +1,10 @@
 <template>
   <div class="msg-detail">
-    <b>{{ this.item.msgType }}</b>
+    <b>
+      <a :href="msgLink" target="_blank">
+        {{ this.item.msgType }}
+      </a>
+    </b>
     <pre>
       <code>{{ JSON.stringify(item.arg, null, 2) }}</code>
     </pre>
@@ -13,16 +17,23 @@ import Vue from 'vue'
 export default Vue.extend({
   props: ['item'],
   computed: {
+    msgLink() {
+      return `https://microsoft.github.io/language-server-protocol/specification#${this.item.msgType}`
+    }
   }
 })
 </script>
 
-<style>
+<style lang="scss">
 .msg-detail {
   border: 1px solid #eee;
   padding: 20px;
   font-size: 12px;
   text-align: left;
+
+  b a {
+    color: inherit;
+  }
 }
 
 pre {
