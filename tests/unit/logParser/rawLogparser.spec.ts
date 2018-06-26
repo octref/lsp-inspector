@@ -6,6 +6,7 @@ describe('HelloWorld', () => {
   it('parses raw log fine', async () => {
     await testFixture('helloworld')
     await testFixture('html')
+    await testFixture('10-tslint-dirty-trace')
     await testFixture('11-crlf')
   });
 });

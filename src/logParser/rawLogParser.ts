@@ -17,15 +17,16 @@ export interface LspItem {
 }
 
 export function parseLSPLog(input: string): LspItem[] {
-  let logs: string[]
-  if (isCRLF(input)) {
-    logs = input.split('\r\n\r\n\r\n')
-  } else {
-    logs = input.split('\n\n\n')
-  }
+  const lineEnding = isCRLF(input) ? '\r\n' : '\n'
+
+  const logs = input.split(lineEnding + lineEnding + lineEnding)
 
   const arr: LspItem[] = []
   logs
+    .map(l => {
+      const start = l.lastIndexOf('[Trace')
+      return l.slice(start)
+    })
     .filter(l => {
       return l.startsWith('[Trace')
     })
@@ -77,7 +78,7 @@ function extractMsg(msg: string) {
   } else if (msg.startsWith('Received response')) {
     msgKind = 'recv-response'
   } else {
-    return null
+    return null;
   }
 
   const reSendNotification = /Sending notification '(.*)'/
@@ -101,7 +102,7 @@ function extractMsg(msg: string) {
   } else if (msgKind === 'recv-response') {
     ;[msgType, msgId, msgLatency] = reRecvResponse.exec(msg).slice(1)
   } else {
-    return null
+    return null;
   }
 
   return {
@@ -113,6 +114,6 @@ function extractMsg(msg: string) {
 }
 
 function isCRLF(input: string) {
-  const matches = input.match(/\r\n\r\n\r\n/)
+  const matches = input.match(/\r\n/)
   return matches && matches.length > 0
 }
