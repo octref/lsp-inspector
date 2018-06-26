@@ -10,10 +10,10 @@ import Vue from 'vue'
 export default Vue.extend({
   computed: {
     query: {
-      get () {
+      get() {
         return this.$store.state.query
       },
-      set (value) {
+      set(value) {
         this.$store.commit('search', value)
       }
     }
@@ -26,7 +26,7 @@ export default Vue.extend({
   margin-bottom: 40px;
   display: inline-block;
   position: relative;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 .search-box input {
   cursor: text;
@@ -35,12 +35,13 @@ export default Vue.extend({
   display: inline-block;
   border: 1px solid #cfd4db;
   border-radius: 2rem;
-  font-size: .9rem;
+  font-size: 0.9rem;
   line-height: 2rem;
-  padding: 0 .5rem 0 2rem;
+  padding: 0 0.5rem 0 2rem;
   outline: none;
-  transition: all .2s ease;
-  background: #fff url(https://vuepress.vuejs.org/assets/img/search.83621669.svg) .6rem .5rem no-repeat;
+  transition: all 0.2s ease;
+  background: #fff url(https://vuepress.vuejs.org/assets/img/search.83621669.svg) 0.6rem 0.5rem
+    no-repeat;
   background-size: 1rem;
 }
 .search-box input:focus {
@@ -48,4 +49,3 @@ export default Vue.extend({
   border-color: #3eaf7c;
 }
 </style>
-

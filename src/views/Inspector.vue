@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
+import Vue from 'vue'
 import Intro from '@/components/Intro.vue'
 import FilePicker from '@/components/FilePicker.vue'
 import FilterBar from '@/components/FilterBar.vue'
@@ -23,8 +23,8 @@ export default Vue.extend({
     MessageList,
     FilterBar,
     SearchBar
-  },
-});
+  }
+})
 </script>
 
 <style>

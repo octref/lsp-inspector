@@ -78,7 +78,7 @@ function extractMsg(msg: string) {
   } else if (msg.startsWith('Received response')) {
     msgKind = 'recv-response'
   } else {
-    return null;
+    return null
   }
 
   const reSendNotification = /Sending notification '(.*)'/
@@ -102,7 +102,7 @@ function extractMsg(msg: string) {
   } else if (msgKind === 'recv-response') {
     ;[msgType, msgId, msgLatency] = reRecvResponse.exec(msg).slice(1)
   } else {
-    return null;
+    return null
   }
 
   return {

@@ -76,10 +76,7 @@
             "completionItem": {
               "snippetSupport": true,
               "commitCharactersSupport": true,
-              "documentationFormat": [
-                "markdown",
-                "plaintext"
-              ],
+              "documentationFormat": ["markdown", "plaintext"],
               "deprecatedSupport": true
             },
             "completionItemKind": {
@@ -114,18 +111,12 @@
           },
           "hover": {
             "dynamicRegistration": true,
-            "contentFormat": [
-              "markdown",
-              "plaintext"
-            ]
+            "contentFormat": ["markdown", "plaintext"]
           },
           "signatureHelp": {
             "dynamicRegistration": true,
             "signatureInformation": {
-              "documentationFormat": [
-                "markdown",
-                "plaintext"
-              ]
+              "documentationFormat": ["markdown", "plaintext"]
             }
           },
           "definition": {
@@ -234,14 +225,7 @@
         "textDocumentSync": 1,
         "completionProvider": {
           "resolveProvider": true,
-          "triggerCharacters": [
-            ".",
-            ":",
-            "<",
-            "\"",
-            "=",
-            "/"
-          ]
+          "triggerCharacters": [".", ":", "<", "\"", "=", "/"]
         },
         "hoverProvider": true,
         "documentHighlightProvider": true,
@@ -252,9 +236,7 @@
         "documentSymbolProvider": true,
         "definitionProvider": true,
         "signatureHelpProvider": {
-          "triggerCharacters": [
-            "("
-          ]
+          "triggerCharacters": ["("]
         },
         "referencesProvider": true,
         "colorProvider": {},

@@ -11,12 +11,12 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
+import Vue from 'vue'
 import Message from '@/components/Message.vue'
 
 export default Vue.extend({
   components: {
-    Message,
+    Message
   },
   computed: {
     log() {
@@ -27,7 +27,8 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-.msg-header, .msg-list {
+.msg-header,
+.msg-list {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;

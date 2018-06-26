@@ -8,12 +8,15 @@ describe('HelloWorld', () => {
     await testFixture('html')
     await testFixture('10-tslint-dirty-trace')
     await testFixture('11-crlf')
-  });
-});
+  })
+})
 
 async function testFixture(fixtureName: string) {
   const log = await fs.readFile(path.resolve(__dirname, `fixture/${fixtureName}.log`), 'utf-8')
-  const expectedJson = await fs.readFile(path.resolve(__dirname, `fixture/${fixtureName}.json`), 'utf-8')
+  const expectedJson = await fs.readFile(
+    path.resolve(__dirname, `fixture/${fixtureName}.json`),
+    'utf-8'
+  )
   const expected = JSON.parse(expectedJson)
 
   const actual = parseLSPLog(log)

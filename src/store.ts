@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import { parseLSPLog, LspItem } from '@/logParser/rawLogParser';
+import { parseLSPLog, LspItem } from '@/logParser/rawLogParser'
 
 Vue.use(Vuex)
 
@@ -81,6 +81,8 @@ function itemMatchesFilter(item: LspItem, filter: Filter) {
     case 'd':
       return item.msgType === 'textDocument/publishDiagnostics'
     case 'l':
-      return item.msgType.startsWith('textDocument') && textSyncMsgTypes.indexOf(item.msgType) === -1 
+      return (
+        item.msgType.startsWith('textDocument') && textSyncMsgTypes.indexOf(item.msgType) === -1
+      )
   }
 }

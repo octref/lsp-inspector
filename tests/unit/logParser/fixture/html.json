@@ -76,10 +76,7 @@
             "completionItem": {
               "snippetSupport": true,
               "commitCharactersSupport": true,
-              "documentationFormat": [
-                "markdown",
-                "plaintext"
-              ],
+              "documentationFormat": ["markdown", "plaintext"],
               "deprecatedSupport": true
             },
             "completionItemKind": {
@@ -114,18 +111,12 @@
           },
           "hover": {
             "dynamicRegistration": true,
-            "contentFormat": [
-              "markdown",
-              "plaintext"
-            ]
+            "contentFormat": ["markdown", "plaintext"]
           },
           "signatureHelp": {
             "dynamicRegistration": true,
             "signatureInformation": {
-              "documentationFormat": [
-                "markdown",
-                "plaintext"
-              ]
+              "documentationFormat": ["markdown", "plaintext"]
             }
           },
           "definition": {
@@ -234,14 +225,7 @@
         "textDocumentSync": 1,
         "completionProvider": {
           "resolveProvider": true,
-          "triggerCharacters": [
-            ".",
-            ":",
-            "<",
-            "\"",
-            "=",
-            "/"
-          ]
+          "triggerCharacters": [".", ":", "<", "\"", "=", "/"]
         },
         "hoverProvider": true,
         "documentHighlightProvider": true,
@@ -252,9 +236,7 @@
         "documentSymbolProvider": true,
         "definitionProvider": true,
         "signatureHelpProvider": {
-          "triggerCharacters": [
-            "("
-          ]
+          "triggerCharacters": ["("]
         },
         "referencesProvider": true,
         "colorProvider": {},
@@ -388,7 +370,8 @@
         "uri": "file:///Users/pine/Code/work/lsp-inspector/inspector/public/index.html",
         "languageId": "html",
         "version": 1,
-        "text": "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>/favicon.ico\">\n    <title>LSP Inspector</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but LSP Inspector doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n\n"
+        "text":
+          "<!DOCTYPE html>\n<html>\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n    <link rel=\"icon\" href=\"<%= BASE_URL %>/favicon.ico\">\n    <title>LSP Inspector</title>\n  </head>\n  <body>\n    <noscript>\n      <strong>We're sorry but LSP Inspector doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>\n    </noscript>\n    <div id=\"app\"></div>\n    <!-- built files will be auto injected -->\n  </body>\n</html>\n\n"
       }
     }
   },

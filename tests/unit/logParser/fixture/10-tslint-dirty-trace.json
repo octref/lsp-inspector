@@ -76,10 +76,7 @@
             "completionItem": {
               "snippetSupport": true,
               "commitCharactersSupport": true,
-              "documentationFormat": [
-                "markdown",
-                "plaintext"
-              ],
+              "documentationFormat": ["markdown", "plaintext"],
               "deprecatedSupport": true
             },
             "completionItemKind": {
@@ -114,18 +111,12 @@
           },
           "hover": {
             "dynamicRegistration": true,
-            "contentFormat": [
-              "markdown",
-              "plaintext"
-            ]
+            "contentFormat": ["markdown", "plaintext"]
           },
           "signatureHelp": {
             "dynamicRegistration": true,
             "signatureInformation": {
-              "documentationFormat": [
-                "markdown",
-                "plaintext"
-              ]
+              "documentationFormat": ["markdown", "plaintext"]
             }
           },
           "definition": {
@@ -267,10 +258,12 @@
     "msgType": "textDocument/didOpen",
     "arg": {
       "textDocument": {
-        "uri": "file:///c%3A/Users/egamma/projects/vscode-tslint/tslint-tests/tests/comment-format.ts",
+        "uri":
+          "file:///c%3A/Users/egamma/projects/vscode-tslint/tslint-tests/tests/comment-format.ts",
         "languageId": "typescript",
         "version": 1,
-        "text": "// VS Code provided fix\n// import { hello } from \"./array-type\";\n\n//start with space\n"
+        "text":
+          "// VS Code provided fix\n// import { hello } from \"./array-type\";\n\n//start with space\n"
       }
     }
   },
@@ -283,7 +276,8 @@
     "arg": {
       "items": [
         {
-          "scopeUri": "file:///c%3A/Users/egamma/projects/vscode-tslint/tslint-tests/tests/comment-format.ts",
+          "scopeUri":
+            "file:///c%3A/Users/egamma/projects/vscode-tslint/tslint-tests/tests/comment-format.ts",
           "section": "tslint"
         }
       ]
@@ -325,7 +319,8 @@
     "msgType": "window/logMessage",
     "arg": {
       "type": 3,
-      "message": "TSLint library loaded from: c:\\Users\\egamma\\projects\\vscode-tslint\\tslint-tests\\node_modules\\tslint\\lib\\index.js"
+      "message":
+        "TSLint library loaded from: c:\\Users\\egamma\\projects\\vscode-tslint\\tslint-tests\\node_modules\\tslint\\lib\\index.js"
     }
   },
   {
@@ -352,7 +347,8 @@
     "msgKind": "recv-notification",
     "msgType": "textDocument/publishDiagnostics",
     "arg": {
-      "uri": "file:///c%3A/Users/egamma/projects/vscode-tslint/tslint-tests/tests/comment-format.ts",
+      "uri":
+        "file:///c%3A/Users/egamma/projects/vscode-tslint/tslint-tests/tests/comment-format.ts",
       "diagnostics": [
         {
           "severity": 2,

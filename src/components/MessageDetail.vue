@@ -18,7 +18,9 @@ export default Vue.extend({
   props: ['item'],
   computed: {
     msgLink() {
-      return `https://microsoft.github.io/language-server-protocol/specification#${this.item.msgType}`
+      return `https://microsoft.github.io/language-server-protocol/specification#${
+        this.item.msgType
+      }`
     }
   }
 })

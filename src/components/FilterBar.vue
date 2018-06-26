@@ -30,7 +30,7 @@ export default Vue.extend({
   font-family: 'Input Mono', Menlo, Monaco, 'Courier New', monospace;
 }
 .filter-bar span {
-  transition: color .1s ease-in;
+  transition: color 0.1s ease-in;
 }
 .filter-bar .active {
   color: #3eaf7c;
