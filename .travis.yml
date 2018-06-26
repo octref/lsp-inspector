@@ -1,0 +1,12 @@
+sudo: false
+
+os:
+  - osx
+  - linux
+
+install:
+  - npm install yarn -g
+  - yarn
+
+script:
+  - yarn test
