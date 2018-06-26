@@ -1,3 +1,7 @@
+# MOVED to https://github.com/Microsoft/language-server-protocol-inspector
+
+---
+
 # LSP Inspector
 
 ### Running
