@@ -25,6 +25,13 @@
       "sourceMaps": true,
       "outFiles": ["${workspaceRoot}/server/dist/**/*.js"],
       "protocol": "inspector"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome",
+      "url": "http://localhost:8080/language-server-protocol/inspector/app",
+      "webRoot": "${workspaceFolder}"
     }
   ]
 }

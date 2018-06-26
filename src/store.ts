@@ -1,26 +1,9 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import { parseLSPLog } from '@/logparser';
+import { parseLSPLog, LspItem } from '@/logParser/rawLogParser';
 
 Vue.use(Vuex)
 
-export type MsgKind =
-  | 'send-notification'
-  | 'recv-notification'
-  | 'send-request'
-  | 'recv-request'
-  | 'send-response'
-  | 'recv-response'
-
-export interface LspItem {
-  time: string
-  msg: string
-  msgKind: MsgKind
-  msgType: string
-  msgId: string
-  msgLatency: string
-  arg: any
-}
 export type Filter =
   | 'a' // All
   | 'w' // Workspace
